@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "xrpl": "^2.0.2"
+  },
+  "name": "popswaps",
+  "version": "1.0.0",
+  "main": "xrp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
