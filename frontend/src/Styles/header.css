@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 550;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header img {
+  height: 110px;
+  width: 230px;
+}
+
+.header .nav-links {
+  margin-top: 2.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .nav-links .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .nav-links .link li {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.header .nav-links li {
+  list-style: none;
+}
+
+.header .nav-links li a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.header .nav-links .connect {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+.header .nav-links .connect li a {
+  color: #ffe600;
+}
+/*# sourceMappingURL=header.css.map */
