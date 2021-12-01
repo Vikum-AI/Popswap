@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Mont;
+}
+
+.main {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5rem;
+  margin-left: 6.125rem;
+}
+
+.main .info {
+  margin-top: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffff;
+  font-family: "Montseratt", sans-serif;
+}
+
+.main .info .exchange {
+  font-size: 3.125rem;
+  font-weight: 500;
+}
+
+.main .info p {
+  margin-top: 4rem;
+  font-family: "Montseratt", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: 2rem;
+}
+
+.main .info button {
+  border: 1px solid #FFE600;
+  width: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 6px;
+  color: #ffff;
+  margin-left: 0rem;
+  padding-bottom: 1.5rem;
+}
+
+.main .info button img {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.main .info .pay {
+  font-size: 0.5rem;
+}
+
+.main .info .pay .master {
+  height: 2.5rem;
+}
+
+.main .info .pay .visa {
+  height: 2.5rem;
+  margin-left: 6px;
+}
+
+.main .convert {
+  display: none;
+  font-family: Mont;
+}
+
+.how h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffff;
+  margin-top: 15rem;
+  font-size: 2rem;
+}
+
+.how .box {
+  background: #FFE600;
+  width: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mont;
+}
+
+$font-color: #ffff;
+$second-color: #FFE600;
+
+.main {
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-left: 6.125rem;
+    .info {
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        color: $font-color;
+        font-family: "Montseratt", sans-serif;
+        .exchange  {
+            font-size: 3.125rem;
+            font-weight: 500;
+        }
+        p {
+            margin-top: 4rem;
+            font-family: "Montseratt", sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.05rem;
+            margin-bottom: 2rem;
+        }
+        button {
+            border: 1px solid $second-color;
+            width: 10rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-radius: 6px;
+            color: $font-color;
+            margin-left: 0rem;
+            padding-bottom: 1.5rem;
+            img {
+                margin-left: 0.5rem;
+                margin-top: 0.5rem;
+            }
+        }
+        .pay {
+            font-size: 0.5rem;
+            .master {
+                height: 2.5rem;
+            }
+            .visa {
+                height: 2.5rem;
+                margin-left: 6px;
+            }
+        }
+    }
+    .convert {
+        display: none;
+        font-family: Mont;
+    }
+}
+
+.how {
+    h2 {
+        display: flex;
+        justify-content: center;
+        color: $font-color;
+        margin-top: 15rem;
+        font-size: 2rem;
+    }
+    .box {
+        background: $second-color;
+        width: 1rem;
+    }
+}

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +7,19 @@
 }
 
 $font-color: #ffff;
+$second-color: #FFE600;
+
 
 .header {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.125rem;
   font-style: normal;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
   display: flex;
-  font-weight: 550;
+  font-weight: 500;
+  margin-top: 1rem;
   justify-content: space-between;
   img {
     height: 110px;
@@ -28,7 +32,7 @@ $font-color: #ffff;
     .link {
       display: flex;
       li {
-        margin-right: 3rem;
+        margin-right: 5rem;
         margin-left: 3rem;
       }
     }
@@ -43,7 +47,7 @@ $font-color: #ffff;
       margin-left: 1rem;
       margin-right: 2rem;
       li a {
-        color: #ebd832;
+        color: $second-color;
       }
     }
   }

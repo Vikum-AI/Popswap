@@ -2,5 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #272727;
+  background: #222222;
+}
+
+@font-face {
+  font-family: Mont;
+  src: local('Mont'),
+    url('./Fonts/Mont/Mont-Regular.ttf') format('truetype');
 }

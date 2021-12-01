@@ -1,6 +1,7 @@
 import React from 'react'
-import logo from '../Assets/Asset 4@4x-100 2.png'
 import '../Styles/header.css'
+import logo from '../Assets/Asset 4@4x-100 1.png'
+
 
 export default function header() {
     return (
