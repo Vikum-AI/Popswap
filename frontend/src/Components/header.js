@@ -2,6 +2,8 @@ import React from 'react'
 import '../Styles/header.css'
 import logo from '../Assets/Asset 4@4x-100 1.png'
 
+// Use useRef for navigation (or just classes)
+// JSX
 
 export default function header() {
     return (
@@ -13,7 +15,7 @@ export default function header() {
 
                 <ul className="nav-links">
 
-
+                
                     <div className="link">
                         <li className="nav-link"> <a href="#"> How it works </a> </li>
                         <li className="nav-link"> <a href="#"> FAQ </a> </li>

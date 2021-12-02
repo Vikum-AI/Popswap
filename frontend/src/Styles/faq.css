@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.faq {
+  background-color: #3D3C3F;
+  border-radius: 15px;
+}
+
+.faq h2 {
+  color: #FFE600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.faq p {
+  color: #ffff;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=faq.css.map */
