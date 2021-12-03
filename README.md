@@ -7,4 +7,4 @@ Dex are a type of cryptocurrency exchange which allows for direct peer-to-peer c
 
 We want to have a cryptocurrency dedicated to us, and a new blockchain, optimised for security and rapidity.
 
-https://img.shields.io/badge/-Join%20us-critical
+[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://github.com/user/repository/subscription)
