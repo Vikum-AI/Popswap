@@ -1,0 +1,55 @@
+@use '../../../Styles//abstract//colors.module';
+
+.root {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: map-get(map-get($map: colors.$colors, $key: dark), 100);
+    border-radius: 5px;
+
+
+    .label {
+        margin-bottom: 10px;
+        color: map-get(map-get($map: colors.$colors, $key: myGrey), 400);
+        font-size: 0.9rem;
+    }
+
+    .select {
+        border: 3px solid map-get(map-get($map: colors.$colors, $key: primary), 400);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            margin-left: 5px;
+        }
+
+        .select__input {
+            background-color: map-get(map-get($map: colors.$colors, $key: dark), 100);
+            color: #fff;
+            border: none;
+            border-right: 2px solid map-get(map-get($map: colors.$colors, $key: myGrey), 400);
+            outline: none;
+        }
+
+        .input__number {
+            background-color: map-get(map-get($map: colors.$colors, $key: dark), 100);
+            border: none;
+            color: #fff;
+            text-align: right;
+            padding: 10px 0;
+            outline: none;
+            flex-grow: 1;
+            -webkit-appearance: none;
+            margin-right: 10px;
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+            }
+        }
+    }
+}

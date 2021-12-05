@@ -1,0 +1,76 @@
+.form {
+  background: #5c5c5c;
+  color: white;
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 1.5rem;
+  width: 35%;
+}
+.form .form__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.form .form__header .form__balance {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.form .form__header .form__balance small {
+  color: #a6a6a6;
+}
+.form .form__exchangeIcon {
+  height: 2rem;
+  width: 2rem;
+  margin: 1.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.form .form__exchangeIcon .icon {
+  border-radius: 50%;
+  padding: 0.4rem;
+}
+.form .fees {
+  margin: 1.5rem 0;
+}
+.form .form__transfer {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.form .form__transfer .form__fees {
+  display: flex;
+  align-items: center;
+}
+.form .form__transfer .form__fees .fees__text {
+  flex-shrink: 0;
+  margin-right: 5px;
+}
+.form .form__transfer .form__fees .icon {
+  height: 15px;
+  width: 15px;
+  color: #a6a6a6;
+}
+.form .form__submit {
+  display: flex;
+  justify-content: center;
+}
+.form .form__submit button {
+  background-color: #ebd832;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #F6EDA2;
+  transition: transform 200ms ease;
+}
+.form .form__submit button:hover {
+  background-color: #BAA912;
+  transform: scale(1.02);
+}
+
+/*# sourceMappingURL=swapForm.module.css.map */
