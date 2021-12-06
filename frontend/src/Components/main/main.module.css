@@ -1,0 +1,87 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+}
+@media screen and (max-width: 768px) {
+  .root {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.root .info {
+  color: #fff;
+  width: 55%;
+}
+@media screen and (max-width: 768px) {
+  .root .info {
+    width: 100%;
+    text-align: center;
+  }
+}
+.root .info h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.root .info p {
+  font-size: 1.2rem;
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .root .info p {
+    width: 100%;
+  }
+}
+.root .info button {
+  margin: 3rem 0;
+  border: 2px solid #ebd832;
+  background-color: inherit;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 768px) {
+  .root .info button {
+    margin: 3rem auto;
+  }
+}
+.root .info button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.root .info button:hover {
+  background-color: #ebd832;
+  color: #262626;
+}
+.root .info .pay {
+  margin: 1rem 0;
+  display: flex;
+  gap: 15px;
+}
+@media screen and (max-width: 768px) {
+  .root .info .pay {
+    margin: 1rem auto;
+    justify-content: center;
+  }
+}
+.root .info .pay img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.root .convert {
+  width: 35%;
+}
+@media screen and (max-width: 768px) {
+  .root .convert {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
+
+/*# sourceMappingURL=main.module.css.map */

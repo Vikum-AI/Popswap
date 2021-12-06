@@ -1,0 +1,94 @@
+@use '../../Styles/abstract/colors.module';
+
+
+.root {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5rem;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        color: #fff;
+        width: 55%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            width: 80%;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+        }
+
+        button {
+            margin: 3rem 0;
+            border: 2px solid map-get(map-get($map: colors.$colors, $key: primary), 400);
+            background-color: inherit;
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 1.3rem;
+
+            @media screen and (max-width: 768px) {
+                margin: 3rem auto;
+            }
+
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+
+            &:hover {
+                background-color: map-get(map-get($map: colors.$colors, $key: primary), 400);
+                color: map-get(map-get($map: colors.$colors, $key: dark), 100);
+            }
+        }
+
+        .pay {
+            margin: 1rem 0;
+            display: flex;
+            gap: 15px;
+
+            @media screen and (max-width: 768px) {
+                margin: 1rem auto;
+                justify-content: center;
+            }
+
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .convert {
+        width: 35%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            margin: 2rem 0;
+        }
+    }
+    
+    
+}
+
