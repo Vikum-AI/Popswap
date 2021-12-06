@@ -10,26 +10,32 @@
   color: #a6a6a6;
   font-size: 0.9rem;
 }
-.root .select {
+.root .select__zone {
   border: 3px solid #ebd832;
   border-radius: 5px;
   display: flex;
   align-items: center;
 }
-.root .select img {
+.root .select__zone .select {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.root .select__zone .select img {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   margin-left: 5px;
 }
-.root .select .select__input {
+.root .select__zone .select .select__input {
   background-color: #262626;
   color: #fff;
   border: none;
   border-right: 2px solid #a6a6a6;
   outline: none;
 }
-.root .select .input__number {
+.root .select__zone .input__number {
+  width: 50%;
   background-color: #262626;
   border: none;
   color: #fff;
@@ -40,7 +46,7 @@
   -webkit-appearance: none;
   margin-right: 10px;
 }
-.root .select .input__number::-webkit-outer-spin-button, .root .select .input__number::-webkit-inner-spin-button {
+.root .select__zone .input__number::-webkit-outer-spin-button, .root .select__zone .input__number::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 

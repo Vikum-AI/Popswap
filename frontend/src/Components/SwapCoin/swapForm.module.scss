@@ -4,9 +4,8 @@
     background: map-get(map-get($map: colors.$colors, $key: myGrey), 800);
     color: white;
     border-radius: 10px;
-    margin: 2rem;
     padding: 1.5rem;
-    width: 35%;
+    width: 100%;
 
     .form__header {
         display: flex;
@@ -32,6 +31,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 50%;
+        background-color: map-get(map-get($map: colors.$colors, $key: dark), 100);;
 
         .icon {
             border-radius: 50%;
@@ -78,7 +78,7 @@
             border-radius: 50px;
             border: none;
             cursor: pointer;
-            box-shadow: 0px 0px 5px map-get(map-get($map: colors.$colors, $key: primary), 100);
+            box-shadow: 0px 0px 3px 0 map-get(map-get($map: colors.$colors, $key: primary), 100);
             transition: transform 200ms ease;
 
             &:hover {

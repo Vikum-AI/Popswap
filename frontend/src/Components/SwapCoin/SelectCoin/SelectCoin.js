@@ -16,22 +16,24 @@ const SelectCoin = ({label, coins}) => {
     return (
         <div className={styles.root}>
             <label className={styles.label} htmlFor="coins">{label}</label>
-            <div  className={styles.select}>
-                <img src={`${selectCoin.image}`} alt={`${selectCoin.name}`} />
-                <select
-                    className={styles.select__input}
-                    name="coins"
-                    id="coins" 
-                    onChange={(e) => handleSelectedCoin(e)}
-                >
-                    {coins.map((coin, idx) => {
-                        return (
-                            <option key={coin.id} value={JSON.stringify(coin)}>
-                                {coin.symbol}
-                            </option>
-                        )
-                    })}
-                </select>
+            <div  className={styles.select__zone}>
+                <div className={styles.select}>
+                    <img src={`${selectCoin.image}`} alt={`${selectCoin.name}`} />
+                    <select
+                        className={styles.select__input}
+                        name="coins"
+                        id="coins" 
+                        onChange={(e) => handleSelectedCoin(e)}
+                    >
+                        {coins.map((coin, idx) => {
+                            return (
+                                <option key={coin.id} value={JSON.stringify(coin)}>
+                                    {coin.symbol}
+                                </option>
+                            )
+                        })}
+                    </select>
+                </div>
                 
                 <input className={styles.input__number} type="number" />
             </div>

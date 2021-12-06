@@ -14,28 +14,35 @@
         font-size: 0.9rem;
     }
 
-    .select {
+    .select__zone {
         border: 3px solid map-get(map-get($map: colors.$colors, $key: primary), 400);
         border-radius: 5px;
         display: flex;
         align-items: center;
 
-        img {
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            margin-left: 5px;
-        }
+        .select {
+            display: flex;
+            align-items: center;
+            width: 30%;
 
-        .select__input {
-            background-color: map-get(map-get($map: colors.$colors, $key: dark), 100);
-            color: #fff;
-            border: none;
-            border-right: 2px solid map-get(map-get($map: colors.$colors, $key: myGrey), 400);
-            outline: none;
+            img {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                margin-left: 5px;
+            }
+    
+            .select__input {
+                background-color: map-get(map-get($map: colors.$colors, $key: dark), 100);
+                color: #fff;
+                border: none;
+                border-right: 2px solid map-get(map-get($map: colors.$colors, $key: myGrey), 400);
+                outline: none;
+            }
         }
 
         .input__number {
+            width: 50%;
             background-color: map-get(map-get($map: colors.$colors, $key: dark), 100);
             border: none;
             color: #fff;
