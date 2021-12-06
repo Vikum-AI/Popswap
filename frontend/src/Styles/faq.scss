@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 $font-color: #ffff;
@@ -10,16 +9,32 @@ $second-color: #FFE600;
 
 
 .faq {
+    display: flex;
+    justify-content: space-between;
     background-color: #3D3C3F ;
     border-radius: 15px;
-    
+    color: white;
+    width: 75%;
+    display: flex;
+    margin-left: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
     h2 {
-        color: $second-color;
+        color: $font-color;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        margin-left: 2rem;
     }
     p {
         color: $font-color;
         margin-bottom: 1rem;
+    }
+    button {
+        background: none;
+        padding: 0;
+        border: none;
+        margin-right: 5rem;
+        color: white;
     }
 }

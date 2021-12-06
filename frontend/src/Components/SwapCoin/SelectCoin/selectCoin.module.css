@@ -1,0 +1,47 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #262626;
+  border-radius: 5px;
+}
+.root .label {
+  margin-bottom: 10px;
+  color: #a6a6a6;
+  font-size: 0.9rem;
+}
+.root .select {
+  border: 3px solid #ebd832;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.root .select img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.root .select .select__input {
+  background-color: #262626;
+  color: #fff;
+  border: none;
+  border-right: 2px solid #a6a6a6;
+  outline: none;
+}
+.root .select .input__number {
+  background-color: #262626;
+  border: none;
+  color: #fff;
+  text-align: right;
+  padding: 10px 0;
+  outline: none;
+  flex-grow: 1;
+  -webkit-appearance: none;
+  margin-right: 10px;
+}
+.root .select .input__number::-webkit-outer-spin-button, .root .select .input__number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/*# sourceMappingURL=selectCoin.module.css.map */

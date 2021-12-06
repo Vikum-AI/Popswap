@@ -10,10 +10,17 @@
 $font-color: #ffff;
 $second-color: #FFE600;
 
+body {
+    background: #222222;
+}
+
 .main {
+    background: #222222;
+    display: flex;
     justify-content: space-between;
     margin-top: 5rem;
     margin-left: 6.125rem;
+    height: 75vh;
     .info {
         margin-top: 7rem;
         display: flex;
@@ -30,6 +37,7 @@ $second-color: #FFE600;
             font-size: 1rem;
             letter-spacing: 0.05rem;
             margin-bottom: 2rem;
+            line-height: 1.5rem;
         }
         button {
             border: 1px solid $second-color;
@@ -39,10 +47,18 @@ $second-color: #FFE600;
             border-radius: 6px;
             color: $font-color;
             margin-left: 0rem;
-            padding-bottom: 1.5rem;
+            padding-bottom: 1.8rem;
+            background: #222222;
             img {
                 margin-left: 0.5rem;
-                margin-top: 0.5rem;
+                margin-top: 0.8rem;
+            }
+        }
+        button:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+            img {
+                // margin-left: 1rem;
             }
         }
         .pay {
@@ -57,8 +73,10 @@ $second-color: #FFE600;
         }
     }
     .convert {
-        display: none;
-        font-family: Mont;
+       width: 22%;
+        background: none;
+        margin-right: 10rem;
+        margin-top: 5rem;
     }
 }
 

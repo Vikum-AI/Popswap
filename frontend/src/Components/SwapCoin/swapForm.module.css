@@ -1,0 +1,115 @@
+@use '../../Styles/colors.module.css';
+.form {
+  background: #555454;
+  color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.form .form__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.form .form__header .form__balance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.form .form__header .form__balance small {
+  color: grey;
+}
+
+.form .form__exchangeIcon {
+  height: 2rem;
+  width: 2rem;
+  margin: 1.5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+.form .form__exchangeIcon .icon {
+  border-radius: 50%;
+  padding: 0.4rem;
+}
+
+.form .fees {
+  margin: 1.5rem 0;
+}
+
+.form .form__transfer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px 0;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.form .form__transfer .form__fees {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form .form__transfer .form__fees .fees__text {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-right: 5px;
+}
+
+.form .form__transfer .form__fees .icon {
+  height: 15px;
+  width: 15px;
+}
+
+.form .form__submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form .form__submit button {
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
+  background: #FFE600;
+}
+
+.form .form__submit button:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+/*# sourceMappingURL=swapForm.module.css.map */

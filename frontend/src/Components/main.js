@@ -6,11 +6,9 @@ import visa from '../Assets/image 5.png'
 import arrow from '../Assets/arrow-right.png'
 import '../Styles/main.css'
 import swap from '../Assets/baseline_import_export_black_24dp.png'
-
+import SwapCoin from './SwapCoin/SwapCoin'
 
 export default function main() {
-
-    let number = '40 ETC'
 
     return (
         <div className='main'>
@@ -36,45 +34,10 @@ export default function main() {
 
             <div className="convert">
 
-                <div className="balance">
-
-                    <h2> Swap </h2>
-                    <h3> Balance { number } </h3>
-
-                </div>
-
-                <div className="from">
-                    <h3> From </h3>
-
-                    <div className="from-1">
-
-                        <select name="from" id="from"> 
-
-                            <option value="eth"> ETH </option>
-                            <option value="eth"> BTC </option>
-
-                        </select>
-
-                        <input type="number" />
-
-                    </div>
-
-                </div>
-
-                <div className="swap">
-
-                    <button> <img src = { swap } alt="" /> </button>
-
-                </div>
+                <SwapCoin />
 
             </div>
 
-            <div className="how">
-
-                <h2> How it works </h2>
-                <div className="box">  </div>
-
-            </div>
         </div>
     )
 }
