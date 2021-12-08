@@ -1,45 +1,23 @@
-const xrpl = require('xrpl');
-const server = 'http://localhost:6006'
-const dotenv = require('dotenv')
+const xrpl = require("xrpl");
+const dotenv = require("dotenv");
 
+const server = "https://localhost:6006";
+const wallet = xrpl.Wallet.fromSeed('sn3nxiW7v8KXzPzAqzyHXbSSKNuN9');
 
-const wallet = xrpl.Wallet.fromSeed('sn3nxiW7v8KXzPzAqzyHXbSSKNuN9')
-console.log(wallet.address)
+const fund_result = await client.fundWallet();
+const test_wallet = fund_result.wallet;
+const api = new xrpl.Client("wss://xrplcluster.com");
 
-
-async function initialize() {
-
-    const client = new xrpl.Client(server)
-
-    await client.connect()
-
-}
-
-
-async function connect() {
-
-  const api = new xrpl.Client('wss://xrplcluster.com');
+console.log(walley.address);
+async initialize = () => await xrpl.Client(server).connect();
+async payments = () => console.log(fund_result);
+async connect = () => {
   await api.connect();
-
-  let response = await api.request({
+  let response  = await api.request({
     "command": "ledger",
-    "ledger_index": "validated",
+    "ledger_index": "validated"
     "transactions": true
   });
-
 }
 
-
-async function payments() {
-
-  const fund_result = await client.fundWallet()
-  const test_wallet = fund_result.wallet
-
-  console.log(fund_result)
-
-}
-
-
-initialize()
-connect()
-payments()
+initialize(); connect(); payments()
